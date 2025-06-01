@@ -12,7 +12,9 @@ The goal of this experiment is to use the Monte Carlo Control algorithm to estim
 
 ## MONTE CARLO CONTROL ALGORITHM
 
-![image](https://github.com/user-attachments/assets/ef734cd4-8a96-4cb4-a462-194b41623770
+
+![image](https://github.com/user-attachments/assets/29eb1472-eb3e-4296-aebd-acc9699388e0)
+
 
 ![image](https://github.com/user-attachments/assets/32d2552d-3607-4d27-8e7f-905e039a8283)
 
