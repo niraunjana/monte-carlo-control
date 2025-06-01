@@ -12,37 +12,9 @@ The goal of this experiment is to use the Monte Carlo Control algorithm to estim
 
 ## MONTE CARLO CONTROL ALGORITHM
 
-Monte Carlo Control is a model-free reinforcement learning method that uses episode sampling to estimate the action-value function and improve the policy based on those estimates. The steps involved in this algorithm are:
+![image](https://github.com/user-attachments/assets/ef734cd4-8a96-4cb4-a462-194b41623770
 
-1. Initialization
-   
-- Initialize Q(s, a) arbitrarily for all state-action pairs.
-
-- Initialize policy π to select actions based on Q-values using an ε-greedy strategy.
-
-2. For each episode (up to n_episodes)
-   
-- Initialize: state s ← environment.reset()
-
-- Generate an episode following the current policy:
-
-- At each time step, select an action a using the ε-greedy policy.
-
-- Take action a, observe reward r, and next state s'.
-
-- Record (state, action, reward) tuple until the episode ends.
-
-3. For each state-action pair in the episode
-   
-- Calculate the return G_t (cumulative reward from that time step).
-
-- If first-visit Monte Carlo is used, update only the first occurrence of each (s, a) pair.
-
-- Update the action-value function
-
-  ![image](https://github.com/user-attachments/assets/ec3dfe0d-9419-4514-8751-649e4a633da8)
-
-
+![image](https://github.com/user-attachments/assets/32d2552d-3607-4d27-8e7f-905e039a8283)
 
 ## MONTE CARLO CONTROL FUNCTION
 ```
